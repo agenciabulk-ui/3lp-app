@@ -270,6 +270,7 @@
   .doc-step .sn{width:28px; height:28px; border-radius:8px; background:var(--blue); color:#fff; font-weight:800; font-size:12px; display:flex; align-items:center; justify-content:center; flex-shrink:0;}
 
   @media print{
+    *{-webkit-print-color-adjust:exact !important; print-color-adjust:exact !important; color-adjust:exact !important;}
     body{background:#fff;}
     .topbar,.prop-toolbar,.no-print{display:none !important;}
     .shell{max-width:none; padding:0;}
