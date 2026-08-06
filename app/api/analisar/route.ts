@@ -3,6 +3,7 @@ import { extrairJSON } from "@/lib/fallback";
 import { DadosBrutos, EmpresaInput } from "@/lib/types";
 
 export const runtime = "nodejs";
+export const dynamic = "force-dynamic";
 
 export async function POST(req: NextRequest) {
   const apiKey = process.env.ANTHROPIC_API_KEY;

@@ -3,6 +3,7 @@ import { getSupabase } from "@/lib/supabase";
 import { DiagnosticoCompleto, EmpresaInput } from "@/lib/types";
 
 export const runtime = "nodejs";
+export const dynamic = "force-dynamic";
 
 export async function GET() {
   const supabase = getSupabase();
