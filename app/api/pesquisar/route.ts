@@ -4,6 +4,7 @@ import { EmpresaInput, DadosBrutos } from "@/lib/types";
 import { buscarNegocioPrincipal, detalhesNegocio, buscarPorTextoNoRaio, analisarCategorias } from "@/lib/googlePlaces";
 
 export const runtime = "nodejs";
+export const maxDuration = 60;
 export const dynamic = "force-dynamic";
 
 export async function POST(req: NextRequest) {

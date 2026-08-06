@@ -4,6 +4,7 @@ import { EmpresaInput, RaioPosicao } from "@/lib/types";
 import { buscarPorTextoNoRaio } from "@/lib/googlePlaces";
 
 export const runtime = "nodejs";
+export const maxDuration = 60;
 export const dynamic = "force-dynamic";
 
 const RAIOS_METROS = [1000, 2000, 3000];
